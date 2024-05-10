@@ -127,7 +127,7 @@ public class Sketch extends PApplet {
    * called on keyboard pressed 
   */
   public void keyPressed() {
-    // wasd key pressed
+    // wasd or arrow key pressed
     if (key == 'w' || keyCode == UP) {
       boolUp = true;
     }
@@ -147,7 +147,7 @@ public class Sketch extends PApplet {
    * called on keyboard release
   */
   public void keyReleased() {
-    // wasd key released
+    // wasd or arrow key released
     if (key == 'w' || keyCode == UP) {
       boolUp = false;
     }
